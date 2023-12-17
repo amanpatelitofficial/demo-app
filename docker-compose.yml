@@ -8,6 +8,6 @@ services:
         - BUILD_NUMBER=${BUILD_NUMBER}
     image: ${imageName}:${BUILD_NUMBER}
     deploy:
-      replicas: 2
+      replicas: 1
     ports:
-      - "3000"
+      - "3000:3000"
