@@ -61,9 +61,6 @@ pipeline{
             steps {
                 script {
                     sh "docker-compose down"
-                    sh "docker network rm mynetwork"
-                     
-                     sh "docker network create mynetwork"
                     sh "docker-compose up -d"
                 }
             }
