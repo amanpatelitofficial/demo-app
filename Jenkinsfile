@@ -75,7 +75,7 @@ pipeline{
            body: "Project: ${env.JOB_NAME}<br/>" +
                 "Build Number: ${env.BUILD_NUMBER}<br/>" +
                 "URL: ${env.BUILD_URL}<br/>",
-           to: 'amanpatel.itofficial@gmail.com ananda.yashaswi@quokkalabs.com'
+           to: 'amanpatel.itofficial@gmail.com  ananda.yashaswi@quokkalabs.com'
         }
       }
 }
